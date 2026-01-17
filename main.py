@@ -33,5 +33,4 @@ with open("prompts.txt", "a", encoding="utf-8") as f:
         f.write(f"Request: {p.text}\n")
         check += 1
         f.write(f"Answer: {answer_text}\n\n")
-        check += 1
 
