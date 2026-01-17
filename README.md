@@ -9,9 +9,10 @@ pip install -r requirements.txt
 
 ## 3. Загрузить переменные окружения
 
+```bash
 set -o allexport
 source path_to_env
-
+```
 Где `path_to_env` — путь к вашему `.env` файлу.
 
 ## 4. Запуск скрипта
